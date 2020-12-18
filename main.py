@@ -8,9 +8,9 @@ from gatelib import *
 
 currFolder = getCurrFolder()
 
-gcit = path.join(currFolder, "apps", "gcit.exe")
-tgctogcm = path.join(currFolder, "apps", "tgctogcm.exe")
-wimgt = path.join(currFolder, "apps", "wimgt.exe")
+gcit = path.join(currFolder, "tools", "Gamecube ISO Tool", "gcit.exe")
+tgctogcm = path.join(currFolder, "tools", "tgctogcm.exe")
+wimgt = path.join(currFolder, "tools", "Wiimms Image Tool", "wimgt.exe")
 
 outputFolder = path.join(currFolder, "output")
 tempFolder = path.join(currFolder, "temp")
@@ -107,7 +107,7 @@ def initTempFolder():
 	mkdir(tempGCFolder)
 
 def printHelp():
-	print("\nUsage: GCGBA_ti.exe -a <input GBA> -c <input GC> --err <TPL/PNG> --load <TPL/PNG> --ind <TPL/PNG> --done <TPL/PNG>")
+	print("\nUsage: GCGBA_ti.py -a <input GBA> -c <input GC> --err <TPL/PNG> --load <TPL/PNG> --ind <TPL/PNG> --done <TPL/PNG>")
 	print()
 	print("-a <the GBA ROM that will be injected>")
 	print("-c <the Gamecube file that the GBA ROM will be injected into; this is wario_agb.tgc, which can be extracted from the Nintendo Gamecube Preview Disc>")

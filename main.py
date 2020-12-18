@@ -116,7 +116,7 @@ def printHelp():
 	print("--ind  <optional; a new texture/PNG file that represents the progress bar for the transfer (such as a dot or a pill)>")
 	print("--done <optional; a new texture/PNG file that displays when the transfer is complete>")
 	print()
-	print("All textures have a recommended size of 640x480 except indicator, which is 30x28")
+	print("All textures have a recommended size of 640x480 except indicator, which is 30x28.")
 
 if __name__ == '__main__':
 	main(sys.argv[1:])

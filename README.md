@@ -2,6 +2,7 @@
 This is a Python script that uses several existing tools to inject a GBA ROM (<= 256 KB) into the official transferrable WarioWare demo found on the Gamecube Preview Disc.
 
 ### Usage
+This is a command line tool that uses Python 3 (though Python 2 might also work).
 ```
 Usage: GCGBA_ti.py -a <input GBA> -c <input GC> --err <TPL/PNG> --load <TPL/PNG> --ind <TPL/PNG> --done <TPL/PNG>
 
